@@ -1,0 +1,106 @@
+.form{
+    margin: auto;
+    border: 5px solid #fdd6d7;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 911px;
+    height: 385px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'league Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    height: 100px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 615px;
+    height: 220px;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+    width: 100%;
+    font-family: 'kurale', sans-serif;
+    font-size: 20px;
+}
+
+input{
+    border: 1px solid black;
+    width: 100%;
+      
+}
+
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.input{
+    display: flex;
+    gap: 10px;
+}
+
+.button{
+    display: flex;
+    justify-items: end;
+    right: 5px;
+    
+}
+
+.enviar{
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-family: 'kurale', sans-serif;
+    font-size: 30px;
+    width: 119px;    
+}
+
+.buttonVoltar{
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 308px;
+    height: 49.76px;
+    margin-top: 43px;
+    background-color: #ffffffff;
+}
+
+.voltar{
+    font-family: 'league Spartan', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.instagram{
+    width: 276px;
+    height: 79px;
+}
+
+.foto4{
+    position: absolute;
+    top: 130px;
+}
