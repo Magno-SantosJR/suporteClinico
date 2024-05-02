@@ -67,3 +67,13 @@ instagram {
 .foto4 {
     width: 80%;
 }
+
+@media screen and (max-width: 500px) {
+    .foto4{
+        display: none;
+    }
+
+    .input{
+        flex-direction: column;
+    }
+}
