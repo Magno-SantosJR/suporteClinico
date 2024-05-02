@@ -46,3 +46,7 @@ body{
 .mostrar{
     display: block;
 }
+
+.form{
+    width: max-content;
+}

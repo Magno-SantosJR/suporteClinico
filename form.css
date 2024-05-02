@@ -73,6 +73,10 @@ instagram {
         display: none;
     }
 
+    .form{
+        width: 90%;
+    }
+
     .input{
         flex-direction: column;
     }
