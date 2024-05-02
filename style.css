@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+body{    
+    background: url(./src/asssets/images/fundo.png);
+    background-size: cover;
+    position: relative;
+}
+
+.foto2{
+    width: 150%;
+}
+
+.foto3{
+    transform: rotateY(180deg);
+    width: 250%;
+}
+
+.bubble{
+    width: 120%;
+    margin-top: -20%;
+}
+
+.instagram{
+    width: 15%;
+}
+.balao{
+    position: absolute;
+    width: 8%;
+    bottom: 2%;
+    left: 55%;
+}
+
+.esconder{
+    display: none;
+}
+
+.formulario{
+    display: none;
+}
+
+.mostrar{
+    display: block;
+}
