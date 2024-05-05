@@ -1,14 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    box-sizing: border-box;
-}
-
 body{    
     background: url(./src/asssets/images/fundo.png);
     background-size: cover;
     position: relative;
+}
+
+.menu-button{
+    display: none;
 }
 
 .foto2{
@@ -26,13 +23,13 @@ body{
 }
 
 .instagram{
-    width: 15%;
+    width: 15vh;
 }
 .balao{
     position: absolute;
-    width: 8%;
-    bottom: 2%;
-    left: 55%;
+    width: 10vh;
+    bottom: 3vh;
+    left: 58vw;
 }
 
 .esconder{
@@ -49,4 +46,44 @@ body{
 
 .form{
     width: max-content;
+}
+
+@media screen and (max-width:500px){
+    .button{
+        display: none;
+    }
+
+    .menu-button{
+        display: flex;
+        position: fixed;
+        top: 25px;
+        right: 3vh;
+        padding: 10px;
+        font-size: xx-large;
+    }
+
+    .menu-x{
+        display: flex;
+        position: fixed;
+        top: 25px;
+        right: 3vh;
+        padding: 10px;
+        font-size: xx-large;
+    }
+    
+    .menuu{
+        top: 12vh;
+        display: flex;
+        position: fixed;
+        right: 3vh;
+        flex-direction: column;
+    }
+    
+    .footer{
+        width: 50vh;
+    }
+
+    .balao{
+        left: 30vh;
+    }
 }

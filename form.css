@@ -65,10 +65,12 @@ instagram {
 }
 
 .foto4 {
-    width: 80%;
+    width: 25vw;
+    max-width: 400px;
+
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     .foto4{
         display: none;
     }
