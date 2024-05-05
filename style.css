@@ -8,6 +8,10 @@ body{
     display: none;
 }
 
+.btn-group-vertical{
+    position: fixed;
+}
+
 .foto2{
     width: 150%;
 }

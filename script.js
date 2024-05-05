@@ -3,7 +3,7 @@ var menu = document.getElementById("menu");
 var close = document.getElementById("menu-x");
 
 menuButton.addEventListener("click", function abrir() {
-    
+
     if (menu.classList = "esconder") {
         menu.classList.remove("esconder");
         menu.classList.add("menuu");
@@ -11,7 +11,7 @@ menuButton.addEventListener("click", function abrir() {
         close.classList.add("menu-x");
         menuButton.classList.remove("menu-button");
         menuButton.classList.add("esconder");
-    } 
+    }
 });
 
 close.addEventListener("click", function fechar() {
@@ -33,6 +33,16 @@ const form = document.getElementById("form");
 const forms = document.getElementById("forms");
 const voltar = document.querySelector(".buttonVoltar");
 
+function formulario() {
+    //adiciona a classe "mostrar" ao formulário
+    formular.classList.add("mostrar");
+    //adiciona a classe "esconder" 
+    inicio.classList.add("esconder");
+    buton.classList.add("esconder");
+    buton.classList.remove("button");
+    footer.classList.add("esconder");
+}
+
 //clicou no botão embaixo da foto é direcionado ao formulário
 form.addEventListener('click', function formulario() {
     //adiciona a classe "mostrar" ao formulário
@@ -53,6 +63,7 @@ forms.addEventListener('click', function formularios() {
     footer.classList.add("esconder");
 });
 
+
 voltar.addEventListener('click', function voltar() {
     console.log("clicou 3");
     formular.classList.remove("mostrar");
@@ -60,7 +71,7 @@ voltar.addEventListener('click', function voltar() {
     buton.classList.remove("esconder");
     buton.classList.add("button");
     footer.classList.remove("esconder");
-})
+});
 
 
 
